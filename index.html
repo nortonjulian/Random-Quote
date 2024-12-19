@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section id="quote-section">
+            <h1>Random Quote Generator</h1>
+            <div id="quote-container">
+                <p id="quote">Click the button to generate a quote!</p>
+                <p id="author"></p>
+            </div>
+            <button id="generate-btn">Generate Quote</button>
+        </section>
+
+        <section id="add-quote">
+            <h2>Add a New Quote</h2>
+            <form id="quote-form">
+                <label for="quote-text">Quote:</label>
+                <input type="text" id="quote-text" name="quote" required minlength="10">
+                <span class="error" id="quote-error"></span>
+
+                <label for="quote-author">Author:</label>
+                <input type="text" id="quote-author" name="author" required>
+                <span class="error" id="author-error"></span>
+
+                <button tyep="submit">Add Quote</button>
+            </form>
+        </section>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>

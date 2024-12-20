@@ -7,7 +7,7 @@ body {
 
 main {
     max-width: 800px;
-    margin: 50 px auto;
+    margin: 50px auto;
     padding: 20px;
     background: white;
     border-radius: 10px;
@@ -58,5 +58,13 @@ input {
     color: red;
     font-size: .9rem;
     height: 15px;
-
 }
+
+#quotes-list {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+

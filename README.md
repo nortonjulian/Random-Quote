@@ -1,0 +1,1 @@
+This is a simple web-based Random Quote Generator that allows users to view random quotes, add new quotes, and see a list of all submitted quotes. The project demonstrates basic HTML, CSS, and JavaScript functionality.
